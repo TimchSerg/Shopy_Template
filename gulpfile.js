@@ -32,9 +32,13 @@ gulp.task('html', function() {
   return gulp.src('development/*.html')
     .pipe(gulp.dest('public'));
 });
+gulp.task('bootstrap', function() {
+  return gulp.src('development/bootstrap/*.css')
+    .pipe(gulp.dest('public'));
+});
 
 gulp.task('watch:less', function(){
   gulp.watch('development/less/**/*.less', ['less']);
 });
 
-gulp.task('default', ['less', 'html', 'watch:less']);
+gulp.task('default', ['less', 'html', 'watch:less', 'bootstrap']);
