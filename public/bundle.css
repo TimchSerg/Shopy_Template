@@ -2,16 +2,108 @@ footer {
   width: 100%;
   height: 250px;
   background-color: yellow;
+  padding: 25px 12%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+footer .footer__logo {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+}
+footer .footer__nav {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+}
+footer .footer__pay {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
 }
 
 header {
   width: 100%;
-  height: 120px;
+  height: 200px;
   background-color: red;
+  border: 1px solid black;
+  padding: 0 12%;
+}
+header .header__all {
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+  background-color: #2f3;
 }
 
 main {
   width: 100%;
-  height: 550px;
+  height: auto;
   background-color: blue;
+  padding: 0 12%;
+}
+main .full_winter_kit {
+  background-color: #332;
+  height: 770px;
+  display: flex;
+}
+main .full_winter_kit .full_winter_kit__nav {
+  width: 50px;
+  height: inherit;
+  background-color: #f22;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+main .full_winter_kit .full_winter_kit__info {
+  width: 630px;
+  height: inherit;
+  background-color: #a22;
+  border: 1px solid black;
+}
+main .new_arrivals {
+  background-color: #ff22af;
+  height: 994px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .new_arrivals .new_arrivals__carusel_items {
+  border: 1px solid black;
+  width: 100%;
+  height: 650px;
+}
+main .new_arrivals .new_arrivals__footer_items {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+}
+main .new_arrivals .new_arrivals__header {
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+}
+main .best_sales {
+  background-color: #ab9905;
+  height: 675px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .best_sales .best_sales__items {
+  border: 1px solid black;
+  width: 100%;
+  height: 160px;
+}
+main .best_sales .best_sales__footer {
+  border: 1px solid black;
+  width: 100%;
+  height: 120px;
+}
+main .best_sales .best_sales__header {
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
 }
