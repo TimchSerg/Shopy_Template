@@ -220,9 +220,27 @@ main .new_arrivals {
   padding: 0 12%;
 }
 main .new_arrivals .new_arrivals__carusel_items {
-  border: 1px solid black;
   width: 100%;
-  height: 650px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+main .new_arrivals .new_arrivals__carusel_items .product_preview_item {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  box-shadow: 0px 0px 11px -5px #43525d;
+}
+main .new_arrivals .new_arrivals__carusel_items .product_preview_item h4 {
+  font-size: 18px;
+  color: #43525d;
+}
+main .new_arrivals .new_arrivals__carusel_items .product_preview_item .price_item {
+  color: #ff7013;
 }
 main .new_arrivals .new_arrivals__footer_items {
   border: 1px solid black;
