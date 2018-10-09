@@ -309,14 +309,79 @@ main .best_sales {
   padding: 0 12%;
 }
 main .best_sales .best_sales__items {
-  border: 1px solid black;
   width: 100%;
   height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+main .best_sales .best_sales__items .best_sales__item {
+  background-color: white;
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .best_sales .best_sales__items .best_sales__item .best_sales__item_info h4 {
+  color: #43525d;
+}
+main .best_sales .best_sales__items .best_sales__item .stars_and_price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+main .best_sales .best_sales__items .best_sales__item .stars_and_price .stars .fa-star {
+  color: #dfdfdf;
+  cursor: pointer;
+}
+main .best_sales .best_sales__items .best_sales__item .stars_and_price .stars .like-star {
+  color: #ff7013;
+}
+main .best_sales .best_sales__items .best_sales__item .stars_and_price .price {
+  color: #ff7013;
+  font-weight: bold;
 }
 main .best_sales .best_sales__footer {
-  border: 1px solid black;
   width: 100%;
   height: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+main .best_sales .best_sales__footer .best_sales__footer__info {
+  display: flex;
+  justify-content: space-around;
+  width: 54%;
+  align-items: center;
+  padding: 50px;
+}
+main .best_sales .best_sales__footer .best_sales__footer__info h4 {
+  text-transform: uppercase;
+  color: #ff7013;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+main .best_sales .best_sales__footer .best_sales__footer__info p {
+  font-style: italic;
+  color: #43525d;
+  margin-bottom: 0;
+}
+main .best_sales .best_sales__footer .best_sales__footer__mailButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+main .best_sales .best_sales__footer .best_sales__footer__mailButton p {
+  margin-bottom: 0;
+  font-style: italic;
+  color: #43525d;
+}
+main .best_sales .best_sales__footer .best_sales__footer__mailButton button {
+  background-color: #ff7013;
+  color: white;
+  padding: 13px 35px;
+  cursor: pointer;
+  font-size: 16px;
 }
 main .best_sales .best_sales__header {
   width: 100%;
