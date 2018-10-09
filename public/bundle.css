@@ -243,9 +243,57 @@ main .new_arrivals .new_arrivals__carusel_items .product_preview_item .price_ite
   color: #ff7013;
 }
 main .new_arrivals .new_arrivals__footer_items {
-  border: 1px solid black;
   width: 100%;
-  height: 150px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 {
+  background-color: white;
+  display: flex;
+  flex-grow: 3;
+  margin-right: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 .block_info h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #43525d;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 .block_price {
+  display: flex;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 .block_price i {
+  margin-right: 25px;
+  align-self: center;
+  color: #43525d;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 .block_price p {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #ff7013;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_1 .block_price p span {
+  font-size: 24px;
+  color: #ff7013;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_2 {
+  background-color: white;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_2 h4 {
+  font-size: 28px;
+}
+main .new_arrivals .new_arrivals__footer_items .new_arrivals__footer_items___block_2 p {
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 8px;
 }
 main .new_arrivals .new_arrivals__header {
   width: 100%;
